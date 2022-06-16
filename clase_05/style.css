@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item-1{
+    background-image: url("https://imgs.search.brave.com/YF5w51gfyqbUEOwcgWHYwStAAGK1ta6fc1XvoMfV7JY/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4t/bmREQkM2RFRfYnhS/b2wxVllXYm1BSGFF/SyZwaWQ9QXBp");
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item-2{
+    background-image: url("https://imgs.search.brave.com/au6I2CZAftO7u_gmPyjtIjaUZIbGHTh3EFQLgP_2U-0/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC54/ZVY4VDVLLTZaa2Y2/TldrdE9IaG1nSGFF/SyZwaWQ9QXBp");
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item-3{
+    background-image: url("https://imgs.search.brave.com/XbBFE0gyfiShZ_gGngsPoKOsU3BZB6UQSBF4ftjgz78/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5R/cnJZaXF6empqcThx/SjJNWXBWSGVnSGFF/SyZwaWQ9QXBp");
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.item-4{
+    background-image: url("https://imgs.search.brave.com/fBrDlA4D6t2crV93pR-sCfO5feDykeuCuRloo2oTqiU/rs:fit:948:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC43/dXJlZTJxcTE3enEw/Q0RoZDUxUG13SGFE/dCZwaWQ9QXBp");
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.item-5{
+    background-image: url("https://imgs.search.brave.com/crjfA9lhYcXzpROHEfVxMLZmbAhCPcIkXZhIGGSJ7p4/rs:fit:759:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5a/c2N6dUlqaUdzNGJx/TFVjU19MMVF3SGFF/byZwaWQ9QXBp");
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.item-6{
+    background-image: url("https://imgs.search.brave.com/0IacsiP7Bsz43qvSnq3Zivzd7omjGTMeR_1JsZFnItk/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5E/NzAzMUtNQ2NGd1hq/OVVwWkxYS3JBSGFF/SyZwaWQ9QXBp");
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
