@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.content{
+    margin: 12px;
+    margin-left: 20px;
+    padding: 12px;
+}
+.content nav a {
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    border: 1.5px solid black;
+}
+.content1{
+    padding: 12px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    flex-grow: 3;
+    text-align: center;
+    border: 1.5px solid black;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media (max-width: 640px) {
+    body{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content1{
+        margin-bottom: 350px;
+    }
+    .content nav a {
+        padding: 5px;
+    }
+}
